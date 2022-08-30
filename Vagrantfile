@@ -12,8 +12,8 @@ Vagrant.configure("2") do |config|
  
   # Every Vagrant development environment requires a box. You can search for
   # boxes at https://vagrantcloud.com/search.
-  config.vm.box = "ubuntu/bionic64"
-  config.vm.box_version = "~> 20220609.0.0"
+  config.vm.box = "ubuntu/kinetic64"
+  config.vm.box_version = "~> 20220510.0.0"
  
   config.vm.network "forwarded_port", guest: 8001, host: 8001
   config.vm.provider "virtualbox" do |v|
