@@ -1,18 +1,18 @@
 # Django DRF API CRUD with Vagrant
-A REST api written in Django for people with deadlines
 
 This repository contains a Django project with the Django Rest Framework (DRF) that implements user authentication and CRUD (create, read, update, delete) operations. The project is configured to run with Vagrant to simplify the setup process.
 
 Prerequisites
 Before you can get started with the project, you'll need to have the following installed on your machine:
 
-Vagrant
-VirtualBox
-Getting Started
+* Vagrant
+* VirtualBox
+* 
+## Getting Started
 To get started with the project, simply clone or download the repository to your local machine and navigate to the directory where the repository is located. Then, run the following command in your terminal or command prompt:
 
-Copy code
-vagrant up
+code
+        vagrant up
 
 ## Technologies used
 * [Django](https://www.djangoproject.com/): The web framework for perfectionists with deadlines (Django builds better web apps with less code).
